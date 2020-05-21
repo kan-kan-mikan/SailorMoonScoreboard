@@ -1,0 +1,156 @@
+/* Player names */
+.player
+{
+	position: absolute;
+	top: 0;
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	
+	clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+}
+.player.p1
+{
+	left: 250px;
+}
+.player.p2
+{
+	right: 250px;
+}
+
+/* Player scores */
+.score
+{
+	position: absolute;
+	top: 0;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	
+	clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 30% 100%);
+}
+.score.p1
+{
+	left: 750px;
+}
+.score.p2
+{
+	right: 750px;
+}
+
+/* Round of tournament */
+.round
+{
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -130px;
+	top: 0;
+	width: 260px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+	clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
+}
+
+/* Game name */
+.game
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 0;
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	
+	clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
+}
+
+/* Character sidebars */
+.character
+{
+	position: absolute;
+	top: 0px;
+	width: 240px;
+    height: 1080px;
+}
+.character.p1
+{
+	left: 0px;
+}
+.character.p2
+{
+	right: 0px;
+}
+.sidebar
+{
+	background-position: absolute;
+	background-size: 100%;
+	width: inherit;
+	height: inherit;
+}
+.sidebar.genericLeft
+{
+	background-image: url(genericLeft.png);
+}
+.sidebar.genericRight
+{
+	background-image: url(genericRight.png);
+}
+.sidebar.chibimoon
+{
+	background-image: url(chibimoon.png);
+}
+.sidebar.jupiter
+{
+	background-image: url(jupiter.png);
+}
+.sidebar.mars
+{
+	background-image: url(mars.png);
+}
+.sidebar.mercury
+{
+	background-image: url(mercury.png);
+}
+.sidebar.moon
+{
+	background-image: url(moon.png);
+}
+.sidebar.neptune
+{
+	background-image: url(neptune.png);
+}
+.sidebar.pluto
+{
+	background-image: url(pluto.png);
+}
+.sidebar.uranus
+{
+	background-image: url(uranus.png);
+}
+.sidebar.venus
+{
+	background-image: url(venus.png);
+}
+
+.colorGEN { background: rgb(228, 59, 225); }
+.colorCBM { background: rgb(217, 11, 60); }
+.colorJUP { background: rgb(39, 134, 63); }
+.colorMAR { background: rgb(192, 31, 35); }
+.colorMER { background: rgb(59, 184, 210); }
+.colorMOO { background: rgb(153, 59, 143); }
+.colorNEP { background: rgb(7, 166, 83); }
+.colorPLU { background: rgb(86, 7, 162); }
+.colorURA { background: rgb(5, 23, 160); }
+.colorVEN { background: rgb(254, 161, 0); }
+
+.top.hidden { top: -50px !important; }
+.bot.hidden { bottom: -40px !important; }
+.left.hidden { left: -350px !important; }
+.right.hidden { right: -350px !important; }

@@ -1,0 +1,17 @@
+body
+{
+	font-family: "Noto Sans";
+	text-shadow: 1px 1px 0 var(--border-color), 1px -1px 0 var(--border-color),
+                 -1px 1px 0 var(--border-color), -1px -1px 0 var(--border-color);
+	color: var(--font-color);
+	text-align: center;
+	font-size: 28px;
+}
+
+.colorB { background: var(--border-color); }
+.color1 { background: var(--main-color1); }
+.color2 { background: var(--main-color2); }
+.color3 { background: var(--main-color3); }
+
+.slow { transition: all 0.3s ease-out; }
+.fast { transition: all 0.1s ease-in; }
